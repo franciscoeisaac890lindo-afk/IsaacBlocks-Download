@@ -6,136 +6,221 @@
 <title>IsaacBlocks Launcher</title>
 
 <style>
-body{
+
+*{
     margin:0;
-    background:#121212;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#111;
     color:white;
     font-family:Arial,sans-serif;
 }
 
 header{
-    background:#2ecc71;
+    background:linear-gradient(135deg,#ff0000,#990000);
     text-align:center;
-    padding:60px;
+    padding:80px 20px;
+}
+
+.logo{
+    width:150px;
+    height:150px;
+    margin:auto;
+    border-radius:20px;
+    background:url("logo.png");
+    background-size:cover;
+    background-position:center;
 }
 
 h1{
-    margin:0;
-    font-size:60px;
+    font-size:70px;
+    margin-top:20px;
 }
 
-.container{
-    max-width:1000px;
-    margin:auto;
-    padding:30px;
-}
-
-.card{
-    background:#1e1e1e;
-    padding:25px;
-    border-radius:12px;
-    margin-bottom:25px;
+.subtitle{
+    font-size:24px;
+    color:#ffd0d0;
 }
 
 .download-btn{
     display:inline-block;
-    background:#2ecc71;
-    color:white;
+    margin-top:30px;
+    padding:18px 40px;
+    background:white;
+    color:#cc0000;
     text-decoration:none;
-    padding:15px 30px;
-    border-radius:10px;
-    font-size:22px;
+    font-size:24px;
+    font-weight:bold;
+    border-radius:12px;
 }
 
 .download-btn:hover{
-    background:#27ae60;
+    transform:scale(1.05);
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:40px;
+}
+
+.card{
+    background:#1a1a1a;
+    border:2px solid #cc0000;
+    border-radius:15px;
+    padding:25px;
+    margin-bottom:25px;
+}
+
+.card h2{
+    color:#ff4d4d;
+    margin-bottom:15px;
 }
 
 code{
     display:block;
-    background:#333;
+    background:#2a2a2a;
     padding:12px;
     border-radius:8px;
     margin-top:10px;
     overflow:auto;
 }
 
+ol li{
+    margin-bottom:15px;
+}
+
 footer{
     text-align:center;
+    padding:30px;
     color:#888;
-    padding:20px;
 }
-</style>
 
+</style>
 </head>
 <body>
 
 <header>
-    <h1>IsaacBlocks Launcher</h1>
-    <p>Launcher oficial do IsaacBlocks</p>
+
+<div class="logo"></div>
+
+<h1>IsaacBlocks</h1>
+
+<p class="subtitle">
+Launcher Oficial
+</p>
+
+<a class="download-btn" href="#tutorial">
+BAIXAR AGORA
+</a>
+
 </header>
 
 <div class="container">
 
 <div class="card">
-    <h2>📥 Download</h2>
 
-    <p>Baixe o Launcher Oficial do IsaacBlocks.</p>
+<h2>🔥 Bem-vindo ao IsaacBlocks</h2>
 
-    <a href="downloads/IsaacBlocksLauncher.py" class="download-btn">
-        Baixar Launcher
-    </a>
+<p>
+IsaacBlocks é um jogo sandbox 2D inspirado em Minecraft,
+feito em Python.
+</p>
+
 </div>
 
 <div class="card">
-    <h2>🚀 Como Usar</h2>
 
-    <ol>
-        <li>Baixe o Python 3.13 64 Bits.</li>
-        <li>Abra o IsaacBlocksLauncher.py.</li>
-        <li>O Launcher será iniciado.</li>
-        <li>Clique em "Instalar IsaacBlocks".</li>
-        <li>Aguarde o download dos arquivos.</li>
-        <li>Clique em "Jogar".</li>
-    </ol>
+<h2>📥 Download</h2>
+
+<p>
+Baixe o Launcher Oficial do IsaacBlocks.
+</p>
+
+</div>
+
+<div class="card" id="tutorial">
+
+<h2>📖 Tutorial</h2>
+
+<ol>
+
+<li>
+Baixe o Python 3.13.7 (64 Bits).
+</li>
+
+<li>
+Acesse:
+<code>
+https://download-directory.github.io/
+</code>
+</li>
+
+<li>
+Cole:
+<code>
+https://github.com/franciscoeisaac890lindo-afk/IsaacBlocks-Download-Py/tree/main/IsaacBlocks
+</code>
+</li>
+
+<li>
+Clique em Download.
+</li>
+
+<li>
+Extraia os arquivos.
+</li>
+
+<li>
+Abra o CMD na pasta.
+</li>
+
+<li>
+Digite:
+<code>
+python isaacblocks.py
+</code>
+</li>
+
+<li>
+🎉 Você acessou o aplicativo e fez o download!
+</li>
+
+</ol>
+
 </div>
 
 <div class="card">
-    <h2>🐍 Python Necessário</h2>
 
-    <p>
-        O Launcher foi desenvolvido em Python.
-    </p>
+<h2>💻 Requisitos</h2>
 
-    <a href="https://www.python.org/downloads/" class="download-btn">
-        Baixar Python 3.13
-    </a>
+<ul>
+<li>Windows 10 ou 11</li>
+<li>Python 3.13.7 64 Bits</li>
+<li>Internet</li>
+</ul>
+
 </div>
 
 <div class="card">
-    <h2>📋 Requisitos</h2>
 
-    <ul>
-        <li>Windows 10 ou Windows 11</li>
-        <li>Python 3.13 64 Bits</li>
-        <li>Internet para instalação</li>
-    </ul>
-</div>
+<h2>📦 Versão Atual</h2>
 
-<div class="card">
-    <h2>📦 Versão Atual</h2>
+<p>
+IsaacBlocks Launcher 1.0
+</p>
 
-    <p>Launcher 1.0</p>
-
-    <p>
-        Instalação automática do IsaacBlocks.
-    </p>
 </div>
 
 </div>
 
 <footer>
+
 © 2026 IsaacBlocks
+
 </footer>
 
 </body>
